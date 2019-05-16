@@ -25,6 +25,7 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |word|
+    puts word
     puts word[2]
     word[2] = $
     kesha_array << word
