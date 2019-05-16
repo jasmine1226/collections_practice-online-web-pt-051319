@@ -39,7 +39,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  i=0
+  i = 0
   output = []
   array.each_with_index do |word, i|
     if i == 1
