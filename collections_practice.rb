@@ -44,6 +44,7 @@ def add_s(array)
       i+=1
     else
       word = word + 's'
+      i+=1
     end
   end
 end
