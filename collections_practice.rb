@@ -39,13 +39,13 @@ def sum_array(array)
 end
 
 def add_s(array)
+  output = []
   array.each_with_index do |word, i|
     if i == 1
       i += 1
     else
-      word = word + 's'
+      output << (word + 's')
       i += 1
     end
-  array
   end
 end
