@@ -44,6 +44,7 @@ def add_s(array)
   array.each_with_index do |word, i|
     if i == 1
       i += 1
+      output << word
     else
       puts i
       puts word + 's'
