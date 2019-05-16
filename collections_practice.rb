@@ -52,6 +52,6 @@ def add_s(array)
       puts "output: #{output}"
       i += 1
     end
-  return output
   end
+    return output
 end
