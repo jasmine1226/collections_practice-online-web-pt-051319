@@ -45,8 +45,10 @@ def add_s(array)
     if i == 1
       i += 1
     else
-
+      puts i
+      puts word + 's'
       output << (word + 's')
+      puts output
       i += 1
     end
   output
