@@ -33,3 +33,7 @@ end
 def find_a(array)
   array.select { |word| word.start_with?('A', 'a')}
 end
+
+def sum_array(array)
+  array.inject { |sum, num| sum + num}
+end
