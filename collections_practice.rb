@@ -41,10 +41,10 @@ end
 def add_s(array)
   array.each_with_index do |word, i|
     if i == 1
-      i+=1
+      i += 1
     else
       word = word + 's'
-      i+=1
+      i += 1
     end
   end
 end
